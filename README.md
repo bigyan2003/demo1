@@ -34,4 +34,7 @@ This project demonstrates a card drag-and-drop functionality with a visually app
 - CSS3
 - JavaScript
 ### demo of our project 
+#### demo video
+https://github.com/user-attachments/assets/40797d3b-6e82-49b7-b45f-28a43c25b6ee
+#### demo screenshot
 ![image](https://github.com/user-attachments/assets/c06ee9f6-13d1-41d0-9821-583891381686)
