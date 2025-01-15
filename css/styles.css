@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #F4B371, #E37978, #D8557D, #B72C8E, #9919F1, #7E33B0);
+    /* background: linear-gradient(to right, #FFF8E1, #FFD1DC, #B3E5FC); */
+    /* background: linear-gradient(to right, #F4A261, #E76F51, #D55C87, #9B5DE5); */
+    /* background: linear-gradient(to right, #FFF8E1, #F4A261, #E76F51, #9B5DE5); */
+
+
+}
+
+
+  
+.card-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+  
+
+
+.card {
+    width: 200px;
+    height: 225px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    opacity: 1;
+    transform: scale(0.9);
+    gap: 0; 
+}
+
+.top-content {
+    background-color: rgba(255, 0, 0, 0.3);
+    padding: 16px;
+    border-radius: 12px;
+    height: 50px;
+    opacity: 0.5;
+    margin-bottom: 16px; 
+}
+
+.middle-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0; 
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 0; 
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.rectangle {
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 12px;
+    flex-grow: 1;
+    height: 20px;
+    opacity: 0.3;
+}
+
+.bottom-content {
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 12px;
+    height: 10px;
+    width: 50%;
+    opacity: 0.3;
+    margin-left: 38px;
+    margin-top: 0;
+}
+
+   
+.card.center {
+    transform: scale(1.25); 
+}
+  
+.card.clicked {
+    transform: translateY(-50px) scale(0.95); 
+}
+  
+.card.dragging {
+    opacity: 0.5;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
